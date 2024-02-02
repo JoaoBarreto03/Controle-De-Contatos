@@ -1,4 +1,4 @@
-namespace Controle_De_Contatos.Models;
+namespace ControleDeContatos.Models;
 
 public class ErrorViewModel
 {

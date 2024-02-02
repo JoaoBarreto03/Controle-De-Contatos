@@ -1,8 +1,13 @@
-﻿using System.Diagnostics;
+﻿﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Controle_De_Contatos.Models;
+using ControleDeContatos.Models;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Controle_De_Contatos.Controllers;
+namespace ControleDeContatos.Controllers;
 
 public class HomeController : Controller
 {
