@@ -40,8 +40,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/barreto/ControleDeContatos/Controle-De-Contatos/Views/Login/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/barreto/ControleDeContatos/Controle-De-Contatos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/barreto/ControleDeContatos/Controle-De-Contatos/Views/Shared/_LayoutDeslogada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXREZXNsb2dhZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/barreto/ControleDeContatos/Controle-De-Contatos/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -50,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/barreto/ControleDeContatos/Controle-De-Contatos/Views/Usuario/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9Dcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/barreto/ControleDeContatos/Controle-De-Contatos/Views/Usuario/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9FZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/barreto/ControleDeContatos/Controle-De-Contatos/Views/Usuario/Index.cshtml]
