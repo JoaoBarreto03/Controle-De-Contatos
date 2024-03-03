@@ -1,13 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 namespace ControleDeContatos.Models;
 
-public class LoginModel
+public class RedefinirSenhaModel
 {
     [Required(ErrorMessage = "Digite o login do usuário!")]
     public string Login { get; set; }
     
-    [Required(ErrorMessage = "Digite a senha do usuário!")]  
-    public string Senha { get; set; }
-
-
+    [Required(ErrorMessage = "Digite o e-mail do usuário!")]  
+    public string Email { get; set; }
 }

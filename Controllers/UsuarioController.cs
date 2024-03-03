@@ -92,4 +92,36 @@ public class UsuarioController : Controller
             return RedirectToAction("Index");
         }
     }
+
+    public IActionResult ApagarConfirmacao(int id)
+    {
+        UsuarioModel usuario = _usuarioRepositorio.ListarPorId(id);
+
+        return View(usuario);
+    }
+
+    public IActionResult Apagar(int id)
+    {
+        try
+        {
+            bool apagado = _usuarioRepositorio.Apagar(id);
+            
+            if(apagado)
+            {
+                TempData["MensagemSucesso"] = "Usuário apagado com sucesso!";
+            }
+            else
+            {
+                TempData["MensagemErro"] = "Ops, não conseguimos apagar seu usuário!";
+            }
+
+            return RedirectToAction("Index");
+
+        }
+        catch (System.Exception erro)
+        {
+            TempData["MensagemErro"] = $"Ops, não conseguimos apagar seu usuário, tente novamente, detalhe do erro: {erro.Message}";
+            return RedirectToAction("Index");
+        }
+    }
 }

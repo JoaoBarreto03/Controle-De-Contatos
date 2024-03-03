@@ -28,9 +28,14 @@ public class UsuarioRepositorio : IUsuarioRepositorio
     {
         return _bancoContext.Usuarios.ToList();
     }
+    public UsuarioModel BuscarPorEmailELogin(string email, string login)
+    {
+        return _bancoContext.Usuarios.FirstOrDefault(x => x.Email.ToUpper() == email.ToUpper() && x.Login.ToUpper() == login.ToUpper());
+    }
     public UsuarioModel Adicionar(UsuarioModel usuario)
     {
         usuario.DataCadastro = DateTime.Now;
+        usuario.SetSenhaHash();
         _bancoContext.Usuarios.Add(usuario);
         _bancoContext.SaveChanges();
         
